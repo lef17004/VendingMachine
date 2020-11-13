@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EF7A3B2B255F4B05002D9150 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7A3B2A255F4B05002D9150 /* main.m */; };
+		EF7A3B36255F4B32002D9150 /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7A3B34255F4B32002D9150 /* Inventory.m */; };
+		EF7A3B37255F4B32002D9150 /* VendingMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7A3B35255F4B32002D9150 /* VendingMachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,13 @@
 /* Begin PBXFileReference section */
 		EF7A3B27255F4B05002D9150 /* VendingMachine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VendingMachine; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7A3B2A255F4B05002D9150 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7A3B32255F4B32002D9150 /* VendingMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendingMachine.h; sourceTree = "<group>"; };
+		EF7A3B33255F4B32002D9150 /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
+		EF7A3B34255F4B32002D9150 /* Inventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inventory.m; sourceTree = "<group>"; };
+		EF7A3B35255F4B32002D9150 /* VendingMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VendingMachine.m; sourceTree = "<group>"; };
+		EF7A3B39255F4B8F002D9150 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF7A3B3B255F4D84002D9150 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = "../../../../../../../../../var/folders/3t/mrtqj_ys7dd9g7w4cvbh5gn40000gn/T/TemporaryItems/(A Document Being Saved By screencaptureui 6)/home.png"; sourceTree = "<group>"; };
+		EF7A3B3C255F4DA3002D9150 /* purchase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purchase.png; path = "../../../../../../../../../var/folders/3t/mrtqj_ys7dd9g7w4cvbh5gn40000gn/T/TemporaryItems/(A Document Being Saved By screencaptureui 7)/purchase.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,9 @@
 		EF7A3B1E255F4B05002D9150 = {
 			isa = PBXGroup;
 			children = (
+				EF7A3B3B255F4D84002D9150 /* home.png */,
+				EF7A3B3C255F4DA3002D9150 /* purchase.png */,
+				EF7A3B39255F4B8F002D9150 /* README.md */,
 				EF7A3B29255F4B05002D9150 /* VendingMachine */,
 				EF7A3B28255F4B05002D9150 /* Products */,
 			);
@@ -57,6 +69,10 @@
 		EF7A3B29255F4B05002D9150 /* VendingMachine */ = {
 			isa = PBXGroup;
 			children = (
+				EF7A3B33255F4B32002D9150 /* Inventory.h */,
+				EF7A3B34255F4B32002D9150 /* Inventory.m */,
+				EF7A3B32255F4B32002D9150 /* VendingMachine.h */,
+				EF7A3B35255F4B32002D9150 /* VendingMachine.m */,
 				EF7A3B2A255F4B05002D9150 /* main.m */,
 			);
 			path = VendingMachine;
@@ -118,6 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7A3B37255F4B32002D9150 /* VendingMachine.m in Sources */,
+				EF7A3B36255F4B32002D9150 /* Inventory.m in Sources */,
 				EF7A3B2B255F4B05002D9150 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
